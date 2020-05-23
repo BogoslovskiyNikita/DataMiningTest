@@ -1,7 +1,7 @@
 import vk
 import time
 
-token = "2b5ae81ac576e88bb62d43335dd2523fd84df8463361066cd4249d64ea4d474a18a1d20a52e2e90400af8"
+token = ""
 session = vk.Session(access_token=token)
 vk_api = vk.API(session, v='5.89')
 
